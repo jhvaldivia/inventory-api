@@ -1,0 +1,26 @@
+[
+	{
+		"barcode": "BBB00001",
+		"name": "Product 1",
+		"description": "Description of product 1",
+		"stock": "2",
+		"region": "Baja California Sur",
+		"productOrder": "OR00001"
+	},
+	{
+		"barcode": "BBB00002",
+		"name": "Product 2",
+		"description": "Description of product 2",
+		"stock": "5",
+		"region": "Aguascalientes",
+		"productOrder": "OR00002"
+	},
+	{
+		"barcode": "BBB00003",
+		"name": "Product 3",
+		"description": "Description of product 3",
+		"stock": "10",
+		"region": "Baja California Sur",
+		"productOrder": "OR00001"
+	}
+]
