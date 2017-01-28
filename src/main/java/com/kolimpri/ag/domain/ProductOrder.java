@@ -20,7 +20,6 @@ public class ProductOrder implements Serializable{
 	protected ProductOrder() {}
 
 	public ProductOrder(String code, String name) {
-		super();
 		this.code = code;
 		this.name = name;
 	}

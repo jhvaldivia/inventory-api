@@ -39,7 +39,6 @@ public class Product implements Serializable {
 	protected Product() {};
 
 	public Product(String barcode, String name, String description, Integer stock, Region region, ProductOrder productOrder) {
-		super();
 		this.barcode = barcode;
 		this.name = name;
 		this.description = description;

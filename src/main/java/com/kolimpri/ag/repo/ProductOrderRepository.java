@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.kolimpri.ag.domain.ProductOrder;
 
-public interface ProductOrderRepository extends CrudRepository<ProductOrder, Integer> {
+public interface ProductOrderRepository extends CrudRepository<ProductOrder, String> {
 
 }
