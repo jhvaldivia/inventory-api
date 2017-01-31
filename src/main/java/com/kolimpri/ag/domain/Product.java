@@ -36,8 +36,13 @@ public class Product implements Serializable {
 	private ProductOrder productOrder;
 	
 	//So the class can only be fully instantiated.
-	protected Product() {};
-
+	public Product() {
+		this.barcode = "XXX00000";
+		this.name = "XX";
+		this.description = "XXXX";
+		this.stock = 0;
+	};
+	
 	public Product(String barcode, String name, String description, Integer stock, Region region, ProductOrder productOrder) {
 		this.barcode = barcode;
 		this.name = name;
